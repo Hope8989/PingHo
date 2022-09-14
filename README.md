@@ -8,6 +8,12 @@
 5. add a new route =>
 6. add a new router-link in navbar menu =>
 
+7. Insert a hyperlink
+8. Insert a image
+9. set the image css
+10. Insert a grid
+
+11. use semantic UI
 
 
 # pingho
