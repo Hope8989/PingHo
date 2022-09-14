@@ -1,16 +1,12 @@
 <template>
   <div class="home">
     <div class="grid">
-      <div class="row">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-      </div>
-      <div class="row">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
         <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-      </div>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -30,19 +26,13 @@ export default {
 
 <style type="text/css" scoped>
 .mt {
-  width: 25%;
-  max-width: 400px;
+  width: 28%;
   border-radius: 25px;
   transition: all 1s cubic-bezier(.11,.48,.1,.49);
 }
 
 .mt:hover {
   width: 33%;
-  max-width: 600px;
-}
-
-.row {
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -54,6 +44,18 @@ export default {
     width: 100%;
   }
 }
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .mt {
+    width: 45%;
+  }
+
+  .mt:hover {
+    width: 50%;
+  }
+}
+
 
 
 </style>
