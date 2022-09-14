@@ -14,12 +14,14 @@
 10. Insert a grid
 11. use media query
 
-12. use semantic UI
-13. semantic UI icons
-14. semantic UI menu
-15. semantic UI grid
-16. semantic UI button
-17. semantic UI form
+12. add draggable function
+
+13. use semantic UI
+14. semantic UI icons
+15. semantic UI menu
+16. semantic UI grid
+17. semantic UI button
+18. semantic UI form
 
 
 # pingho
