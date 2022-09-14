@@ -6,6 +6,8 @@
 
       <a href="https://mynameishp2000.wixsite.com/pingho">my art</a>.
 
+      <br/>
+
       <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
     </p>
     <h3>Installed CLI Plugins</h3>
