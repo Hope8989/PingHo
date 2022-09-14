@@ -12,13 +12,14 @@
 8. Insert a image
 9. set the image css
 10. Insert a grid
+11. use media query
 
-11. use semantic UI
-12. semantic UI icons
-13. semantic UI menu
-14. semantic UI grid
-15. semantic UI button
-16. semantic UI form
+12. use semantic UI
+13. semantic UI icons
+14. semantic UI menu
+15. semantic UI grid
+16. semantic UI button
+17. semantic UI form
 
 
 # pingho
