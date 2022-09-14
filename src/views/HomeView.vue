@@ -45,5 +45,15 @@ export default {
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .mt {
+    width: 80%;
+  }
+
+  .mt:hover {
+    width: 100%;
+  }
+}
+
 
 </style>
