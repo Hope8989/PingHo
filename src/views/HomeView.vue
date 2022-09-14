@@ -23,7 +23,7 @@ export default {
   min-width: 200px;
   max-width: 400px;
   border-radius: 25px;
-  transition: all 1s cubic-bezier(.35,-1.23,.83,1.32);
+  transition: all 1s ccubic-bezier(.11,.48,.1,.49);
 }
 
 .mt:hover {
