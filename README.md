@@ -14,6 +14,11 @@
 10. Insert a grid
 
 11. use semantic UI
+12. semantic UI icons
+13. semantic UI menu
+14. semantic UI grid
+15. semantic UI button
+16. semantic UI form
 
 
 # pingho
