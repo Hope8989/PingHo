@@ -1,11 +1,17 @@
 <template>
   <div class="home">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <div class="grid">
+      <div class="row">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+      </div>
+      <div class="row">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+      </div>
+    </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -24,17 +30,19 @@ export default {
 
 <style type="text/css" scoped>
 .mt {
-  width: 80%;
-  min-width: 200px;
+  width: 25%;
   max-width: 400px;
   border-radius: 25px;
   transition: all 1s cubic-bezier(.11,.48,.1,.49);
 }
 
 .mt:hover {
-  width: 90%;
-  min-width: 300px;
+  width: 33%;
   max-width: 600px;
+}
+
+.row {
+  width: 100%;
 }
 
 
