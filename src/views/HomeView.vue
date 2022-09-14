@@ -1,6 +1,11 @@
 <template>
   <div class="home">
     <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
