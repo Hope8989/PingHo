@@ -3,6 +3,11 @@
     <div class="ui grid container">
       <div class="ui row">
         <div class="ten wide column">
+          <div class="ui list">
+            <div class="item" v-for="t in todo" :key="t">
+              {{t}}
+            </div>
+          </div>
           <img id = "drag1" class= "mt" alt="mt" src="../assets/mnt.jpeg">
           <img id = "drag2" class= "mt" alt="mt" src="../assets/mnt.jpeg">
           <img id = "drag3" class= "mt" alt="mt" src="../assets/mnt.jpeg">
@@ -24,6 +29,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
+  props: ['todo'],
   components: {
     HelloWorld
   },

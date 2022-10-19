@@ -6,9 +6,32 @@
     <router-link class="item" to="/about">About</router-link>
   </nav>
   <div class="pad">
-    <router-view/>
+    <router-view :todo="todo"/>
   </div>
 </template>
+
+<script type="text/javascript">
+
+import { db } from './firebase.js'
+import { ref, onValue } from 'firebase/database'
+
+export default {
+  name: 'HomeView',
+  data () {
+    return {
+      todo: []
+    }
+  },
+  mounted () {
+    const vm = this
+    onValue(ref(db, 'todo'), (snapshot) => {
+      const data = snapshot.val()
+      vm.todo = data
+      // vm.logged('wdpXGWEUObY7miKsK5hH5qDjkJ43', 'bestian@gmail.com')
+    })
+  }
+}
+</script>
 
 <style>
 #app {
