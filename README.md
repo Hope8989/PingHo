@@ -26,6 +26,11 @@
 20. build a simple todo list
 21. build a simple comment board
 
+22. v-for
+23. v-show
+24. $emit
+25. props
+
 # pingho
 
 ## Project setup
