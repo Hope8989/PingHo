@@ -1,5 +1,12 @@
 <template>
   <div class="hello">
+    <form class="ui form">
+      <div class="ui input">
+        <input type="text" name="" v-model="name" placeholder="enter your name..." />
+      </div>
+    </form>
+
+    <a class="ui huge green button" @click="hello()">Hello {{name }}</a>
     <h1>今天很熱</h1>
     <p>
       check out
@@ -37,6 +44,16 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data () {
+    return {
+      name: ''
+    }
+  },
+  methods: {
+    hello () {
+      window.alert('hello ' + this.name + '!')
+    }
   }
 }
 </script>
