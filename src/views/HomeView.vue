@@ -1,14 +1,20 @@
 <template>
   <div class="home">
-    <div class="grid">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
-        <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+    <div class="ui grid container">
+      <div class="ui row">
+        <div class="ten wide column">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+          <img class= "mt" alt="mt" src="../assets/mnt.jpeg">
+        </div>
+        <div class="six wide column">
+          <HelloWorld msg="Welcome to Your Vue.js App"/>
+        </div>
+      </div>
     </div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
