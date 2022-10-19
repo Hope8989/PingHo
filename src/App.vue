@@ -25,17 +25,18 @@ export default {
   methods: {
     addItem (item) {
       this.todo.push(item)
-      set(ref(db, 'todo', this.todo).then(() => {
-          console.log('todo updated!')
-        })
-      )
+      const ans = [ ...this.todo ]
+      console.log(ans)
+      set(ref(db, 'todo'), ans).then(() => {
+        console.log('todo updated!')
+      })
     }
   },
   mounted () {
     const vm = this
     onValue(ref(db, 'todo'), (snapshot) => {
       const data = snapshot.val()
-      vm.todo = data
+      vm.todo = [...data]
       // vm.logged('wdpXGWEUObY7miKsK5hH5qDjkJ43', 'bestian@gmail.com')
     })
   }
