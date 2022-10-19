@@ -6,7 +6,7 @@
       </div>
     </form>
 
-    <a class="ui huge green button" @click="hello()">Hello {{name }}</a>
+    <a class="ui small brown button" @click="hello()">Hello {{name }}</a>
     <h1>今天很熱</h1>
     <p>
       check out
@@ -36,6 +36,10 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <a href="https://www.instagram.com/pingho.89/" target="_blank" class="ui instagram button">
+      <i class="instagram icon"></i>
+      Instagram
+    </a>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="ui grid container">
-      <div class="ui row">
+      <div class="ui stackable row">
         <div class="ten wide column">
           <div class="ui list">
             <div class="item" v-for="t in todo" :key="t">

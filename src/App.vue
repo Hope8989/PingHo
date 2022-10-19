@@ -62,7 +62,7 @@ nav a.router-link-exact-active {
 }
 
 .pad {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 </style>
