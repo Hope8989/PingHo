@@ -11,7 +11,7 @@
           <div class="ui form">
             <div class="ui input">
               <input type="text" name="" v-model="newItem" />
-              <a class="ui green button" @click="addItem(newItem)">新增</a>
+              <a class="ui green button" @click="addItem(newItem)">tell me something...</a>
             </div>
           </div>
           <img id = "drag1" class= "mt" alt="mt" src="../assets/mnt.jpeg">
