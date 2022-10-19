@@ -5,7 +5,9 @@
     <router-link class="item" to="/bye">Bye</router-link> 
     <router-link class="item" to="/about">About</router-link>
   </nav>
-  <router-view/>
+  <div class="pad">
+    <router-view/>
+  </div>
 </template>
 
 <style>
@@ -17,9 +19,6 @@
   color: #2c3e50;
 }
 
-
-
-
 nav a {
   font-weight: bold;
   color: #2c3e50;
@@ -28,4 +27,9 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983 !important;
 }
+
+.pad {
+  padding-top: 60px;
+}
+
 </style>
