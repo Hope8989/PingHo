@@ -23,6 +23,9 @@
 17. semantic UI button
 18. semantic UI form
 
+19. use firebase database
+20. build a simple todo list
+21. build a simple comment board
 
 # pingho
 
