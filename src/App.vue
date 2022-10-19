@@ -1,5 +1,5 @@
 <template>
-  <nav class="ui menu">
+  <nav class="ui fixed top inverted menu">
     <router-link class="item" to="/">
       <i class="home icon" />Home</router-link> 
     <router-link class="item" to="/bye">Bye</router-link> 
