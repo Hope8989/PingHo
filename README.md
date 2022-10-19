@@ -7,7 +7,6 @@
 4. create a new page => create a .Vue component
 5. add a new route =>
 6. add a new router-link in navbar menu =>
-
 7. Insert a hyperlink
 8. Insert a image
 9. set the image css
