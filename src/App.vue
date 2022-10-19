@@ -6,20 +6,29 @@
     <router-link class="item" to="/about">About</router-link>
   </nav>
   <div class="pad">
-    <router-view :todo="todo"/>
+    <router-view :todo="todo" @addItem="addItem"/>
   </div>
 </template>
 
 <script type="text/javascript">
 
 import { db } from './firebase.js'
-import { ref, onValue } from 'firebase/database'
+import { ref, set, onValue } from 'firebase/database'
 
 export default {
   name: 'HomeView',
   data () {
     return {
       todo: []
+    }
+  },
+  methods: {
+    addItem (item) {
+      this.todo.push(item)
+      set(ref(db, 'todo', this.todo).then(() => {
+          console.log('todo updated!')
+        })
+      )
     }
   },
   mounted () {

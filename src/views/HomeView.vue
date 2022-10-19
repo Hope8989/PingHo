@@ -8,6 +8,12 @@
               {{t}}
             </div>
           </div>
+          <div class="ui form">
+            <div class="ui input">
+              <input type="text" name="" v-model="newItem" />
+              <a class="ui green button" @click="addItem(newItem)">新增</a>
+            </div>
+          </div>
           <img id = "drag1" class= "mt" alt="mt" src="../assets/mnt.jpeg">
           <img id = "drag2" class= "mt" alt="mt" src="../assets/mnt.jpeg">
           <img id = "drag3" class= "mt" alt="mt" src="../assets/mnt.jpeg">
@@ -32,6 +38,16 @@ export default {
   props: ['todo'],
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      newItem: ''
+    }
+  },
+  methods: {
+    addItem () {
+      this.$emit('addItem', this.newItem)
+    }
   },
   mounted () {
     // Make the DIV element draggable:
