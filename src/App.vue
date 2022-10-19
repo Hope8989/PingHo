@@ -1,6 +1,7 @@
 <template>
   <nav class="ui menu">
-    <router-link class="item" to="/">Home</router-link> 
+    <router-link class="item" to="/">
+      <i class="home icon" />Home</router-link> 
     <router-link class="item" to="/bye">Bye</router-link> 
     <router-link class="item" to="/about">About</router-link>
   </nav>
